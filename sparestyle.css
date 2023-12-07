@@ -133,6 +133,41 @@ h1, h2 {
     color: #333;
 }
 
+.partners {
+    text-align: center;
+}
+
+.partners h2 {
+    color: #F3BA2F;
+    font-size: 1.5em;
+}
+
+.partners-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.partner-circle {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 1.5em 2em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.336);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partner-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
 section {
     padding: 3em 2em;
     text-align: left;
